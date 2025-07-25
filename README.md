@@ -6,20 +6,20 @@ Create a Binder launch button:
 
 1. Copy the GitHub repo URL
 2. Go to https://mybinder.org
-3. Fill in the tutorial URL
+3. Replace `plantcv-tutorial-template` with the name of the repository you want a button made for.
 4. Copy the Markdown code for the button
 5. Delete these meta-instructions, optionally replace with your own. 
 6. Launch to build the environment
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/danforthcenter/plantcv-tutorial-template/HEAD)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/danforthcenter/plantcv-tutorial-template/HEAD?labpath=index.ipynb)
 
 Create a Google Colab button:
 
 1. Copy the markdown below these instructions to the README section below the Binder button.
-2. Replace {repo_name} with the name of the repository you want a button made for.
+2. Replace `plantcv-tutorial-template` with the name of the repository you want a button made for.
 3. Make sure you have created the Google Colaboratory notebook for the tutorial so the button is correctly linked.
 
-[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/danforthcenter/{repo_name}/blob/main/index-Colab.ipynb)
+[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/danforthcenter/plantcv-tutorial-template/blob/main/index-Colab.ipynb)
 
 Create a GitHub Source button:
 (Omit this step if you are working GitHub tutorial repo README)
