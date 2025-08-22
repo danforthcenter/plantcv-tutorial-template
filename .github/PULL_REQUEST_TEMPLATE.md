@@ -19,8 +19,9 @@ Add any other context here.
 - [ ] Changes reviewed
 - [ ] Workflow/Documentation updates made to both `index.ipynb` and `index-Colab.ipynb`
 - [ ] PR approved
-- [ ] Merge PR 
-- [ ] Binder environment built*
+- [ ] Merge PR
+- [ ] Delete PR branch
+- [ ] Build the binder environment*
 - [ ] If PR author is a new contributor, add to plantcv with a comment like [this](https://github.com/danforthcenter/plantcv/pull/1737#issuecomment-3084551747)
 
 \* To build a binder environment after changes are pushed are merged into main, click on the [launch binder] button in the README.md. A repository usually takes a long time to launch after updates because Binder needs to create the environment. This step aims to provide quicker launches to users. 
